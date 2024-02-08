@@ -1,0 +1,13 @@
+.section {
+  background-color: antiquewhite;
+  margin: 2rem 2rem;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+
+    &_description {
+      width: 50%;
+    }
+  }
+}

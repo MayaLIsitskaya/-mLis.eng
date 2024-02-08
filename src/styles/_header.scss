@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 2rem 2rem;
+  padding-bottom: 1rem;
+
+  .left {
+    width: 40%;
+
+    .logo {
+      font-size: 35px;
+      font-weight: 900;
+      color: black;
+    }
+  }
+
+  .right {
+    width: 60%;
+
+    .navbar {
+      &__lists {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+
+        color: black;
+      }
+
+      &__link {
+        color: black;
+        font-size: 24px;
+      }
+    }
+  }
+}
