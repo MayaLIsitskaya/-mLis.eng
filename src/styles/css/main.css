@@ -105,9 +105,11 @@ body {
 }
 
 body {
+  background-color: white;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .line {
@@ -116,7 +118,6 @@ body {
 }
 
 .section {
-  background-color: antiquewhite;
   margin: 2rem 2rem;
 }
 .section__block {
@@ -125,6 +126,16 @@ body {
 }
 .section__block_description {
   width: 50%;
+}
+.section-about .frame {
+  align-items: center;
+}
+.section-about .img {
+  display: block;
+  max-width: 60%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -136,11 +147,6 @@ body {
 }
 .header .left {
   width: 40%;
-}
-.header .left .logo {
-  font-size: 35px;
-  font-weight: 900;
-  color: black;
 }
 .header .right {
   width: 60%;
@@ -154,7 +160,11 @@ body {
 }
 .header .right .navbar__link {
   color: black;
-  font-size: 24px;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.header .right .navbar__link:hover {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=main.css.map */

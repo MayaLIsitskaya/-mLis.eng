@@ -1,5 +1,4 @@
 .section {
-  background-color: antiquewhite;
   margin: 2rem 2rem;
 
   &__block {
@@ -8,6 +7,22 @@
 
     &_description {
       width: 50%;
+    }
+  }
+
+  &-about {
+    .frame {
+      align-items: center;
+    }
+
+    .img {
+      display: block;
+      max-width: 60%;
+
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+
     }
   }
 }
